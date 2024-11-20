@@ -1,0 +1,38 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #666;
+    color: white;
+    padding: 8px 14px;
+    transition: all 0.2s;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover{
+        background: #555;
+    }
+
+    &:active{
+        background: #4a4a4a;
+        scale:0.98;
+    }
+
+    &.button-primary{
+        background: rgb(65, 65, 247);
+
+        &:hover{
+            background: rgb(49, 49, 247);
+        }
+    
+        &:active{
+            background: rgb(38, 38, 186);
+            scale:0.98;
+        }
+    }
+}
+
+textarea{
+    resize: none;
+}

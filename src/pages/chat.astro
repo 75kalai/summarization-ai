@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ChatJSX from "../components/chat/chat.jsx"
+
+---
+
+<Layout title="Chat Page" route="chat">
+    <!-- <Chat/> -->
+	<ChatJSX client:only="react"/>
+</Layout>
+
+<style>
+	
+</style>
